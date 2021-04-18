@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <script>
+            function AutoRefresh(t)
+            {
+                setTimeout("location.reload(true);", t)
+            }
+        </script>
+    </head>
+    <body onload="JavaScript:AutoRefresh(1000);">
+        <center><h1 style="font-family:courier">Live Pulse-forbruk</h1></center>
+        <center><h1 style="font-family:courier; font-size:200">{{ power }}</h1></center>
+    </body>
+</html>
